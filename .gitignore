@@ -1,0 +1,28 @@
+# Secrets / local settings
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+venv_py311/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Local runtime data
+*.db
+assistant_api/chroma_db/
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
