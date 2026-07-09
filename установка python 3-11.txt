@@ -9,3 +9,13 @@ py -3.11 -m venv venv_py311
 
 Установка зависимостей
 pip install -r .\requirements.txt
+
+Настройка
+Скопируйте env.example в .env и укажите PROXY_API_KEY
+
+Запуск ассистента (из корня проекта)
+python main.py
+
+Альтернатива
+cd assistant_api
+python app.py
